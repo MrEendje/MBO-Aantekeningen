@@ -199,7 +199,7 @@ Een tabelspecificatie helpt bij:
 ## Gerelateerde Concepten
 
 - [[Database Normalisatie]]
-- [[Primary Keys en Foreign Keys]]
+- [[Database_WAMP_SQL]]
 - [[SQL CREATE TABLE]]
 - [[Database Design Patterns]]
 
