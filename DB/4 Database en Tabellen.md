@@ -4,7 +4,7 @@
 Een **database** is een plek waar je informatie bewaart.  
 Met **MySQL** kun je zulke databases maken en beheren.
 
-👉 Zie ook: [[Database]]
+👉 Zie ook: [[2 Database]]
 
 ---
 
@@ -102,7 +102,7 @@ CREATE TABLE Bestelling (
 - `DATETIME` → datum + tijd.  
 - `BIT` → true/false (1 of 0).  
 kijk ook:
-[[mysql_datatypes]]
+[[5 mysql_datatypes]]
 
 ---
 
@@ -150,8 +150,9 @@ JOIN Bestelling b ON k.id = b.klant_id;
 ## [OBSIDIAN Tips]
 - Gebruik `[[...]]` om notities te linken.  
 - Maak aparte notities voor grote onderwerpen zoals:  
-  - [[Database]] (wat is een database)  
+  - [[2 Database]] (wat is een database)  
   - [[SQL Queries]] (query voorbeelden)  
   - [[Constraints en Keys]] (uitleg sleutels)  
 - Gebruik kopjes (#, ##, ###) om je notities overzichtelijk te houden.  
 
+#database #mysql #datatypes #sql #datamodellering

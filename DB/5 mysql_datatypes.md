@@ -3,7 +3,7 @@
 Een **database** is een plek waar je informatie bewaart.  
 Met **MySQL** kun je zulke databases maken en beheren.
 
-👉 Zie ook: [[Database]]
+👉 Zie ook: [[2 Database]]
 
 
 ## Leerdoelen
@@ -199,8 +199,8 @@ Een tabelspecificatie helpt bij:
 ## Gerelateerde Concepten
 
 - [[Database Normalisatie]]
-- [[Database_WAMP_SQL]]
-- [[SQL CREATE TABLE]]
+- [[4 Database en Tabellen]]
+- [[6 MySQL constraints]]
 - [[Database Design Patterns]]
 
 ---
