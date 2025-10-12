@@ -1,4 +1,4 @@
-# 5.1 Introductie — Wat is User Story Mapping
+z# 5.1 Introductie — Wat is User Story Mapping
 
 **User Story Mapping** is een techniek die helpt om een project overzichtelijk te maken door de behoeften en wensen van de gebruikers in kaart te brengen.  
 

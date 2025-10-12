@@ -83,7 +83,7 @@ Een van de bekendste Agile-methoden is **Scrum**.
 ---
 
 ## 2.8 Agile methode
-kijk ook: [[3 Agile]]
+kijk ook: [[3 - Agile]]
 
 ### Voordelen
 - **Flexibel** – Makkelijk omgaan met veranderingen.  
