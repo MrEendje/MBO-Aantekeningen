@@ -154,12 +154,12 @@ Een moment van reflectie: wat ging goed en wat kan beter in de volgende sprint?
 
 # 3.7 Verschil tussen Kanban en Scrum
 
-| Aspect | Kanban | Scrum |
-|--------|---------|--------|
-| **Werkstroom** | Continue stroom van taken | Werken in vaste sprints |
-| **Tijdsdruk** | Geen vaste tijdsperioden | Vaste sprintduur (2–4 weken) |
-| **Teamrollen** | Geen vaste rollen | Product Owner, Scrum Master, Teamleden |
-| **Meten van succes** | Doorstroom en efficiëntie | Sprintresultaten en feedback |
+| Aspect               | Kanban                    | Scrum                                  |
+| -------------------- | ------------------------- | -------------------------------------- |
+| **Werkstroom**       | Continue stroom van taken | Werken in vaste sprints                |
+| **Tijdsdruk**        | Geen vaste tijdsperioden  | Vaste sprintduur (2–4 weken)           |
+| **Teamrollen**       | Geen vaste rollen         | Product Owner, Scrum Master, Teamleden |
+| **Meten van succes** | Doorstroom en efficiëntie | Sprintresultaten en feedback           |
 
 ---
 

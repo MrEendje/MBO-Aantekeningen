@@ -23,13 +23,13 @@ In deze les behandelen we:
 
 ### Exact Numerieke Gegevens (Gehele Getallen)
 
-| Type        | Omschrijving                 | Waardenbereik                                                                                                          | Geheugen |
-| ----------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------- |
-| `TINYINT`   | Zeer klein geheel getal      | Zonder teken: 0 tot 255<br>Met teken: -128 tot +127                                                                    | 1 Byte   |
-| `SMALLINT`  | Klein geheel getal           | Zonder teken: 0 tot 65.535<br>Met teken: -32.768 tot +32.767                                                           | 2 Byte   |
-| `MEDIUMINT` | Middelgroot geheel getal     | Zonder teken: 0 tot 16.777.215<br>Met teken: -8.388.608 tot +8.388.607                                                 | 3 Byte   |
-| `INT`       | Geheel getal normale grootte | Zonder teken: 0 tot 4.294.967.295<br>Met teken: -2.147.483.648 tot +2.147.483.647                                      | 4 Byte   |
-| `BIGINT`    | Groot geheel getal           | Zonder teken: 0 tot 18.446.744.073.709.551.615<br>Met teken: -9.223.372.036.854.775.808 tot +9.223.372.036.854.775.807 | 8 Byte   |
+| Type        | Omschrijving                 | Waardenbereik                                                                     | Geheugen |
+| ----------- | ---------------------------- | --------------------------------------------------------------------------------- | -------- |
+| `TINYINT`   | Zeer klein geheel getal      | Zonder teken: 0 tot 255<br>Met teken: -128 tot +127                               | 1 Byte   |
+| `SMALLINT`  | Klein geheel getal           | Zonder teken: 0 tot 65.535<br>Met teken: -32.768 tot +32.767                      | 2 Byte   |
+| `MEDIUMINT` | Middelgroot geheel getal     | Zonder teken: 0 tot 16.777.215<br>Met teken: -8.388.608 tot +8.388.607            | 3 Byte   |
+| `INT`       | Geheel getal normale grootte | Zonder teken: 0 tot 4.294.967.295<br>Met teken: -2.147.483.648 tot +2.147.483.647 | 4 Byte   |
+| `BIGINT`    | Groot geheel getal           |                                                                                   | 8 Byte   |
 
 > [!tip] Unsigned
 > Gebruik `UNSIGNED` om alleen positieve getallen toe te staan en het bereik te verdubbelen.
@@ -52,14 +52,14 @@ In deze les behandelen we:
 
 ## String Datatypes
 
-| Type | Omschrijving | Waardenbereik | Geheugen |
-|------|--------------|---------------|----------|
-| `CHAR(M)` | Tekenreeks vaste lengte | M: 0 tot 255 tekens | M tekens (altijd) |
-| `VARCHAR(M)` | Tekenreeks variabele lengte | M: 0 tot 65.535 tekens | M + 2 Byte |
-| `TINYTEXT(M)` | Zeer kleine tekst variabel | M: 0 tot 255 tekens | M + 1 Byte |
-| `TEXT(M)` | Tekst variabel | M: 0 tot 65.535 tekens | M + 2 Byte |
-| `MEDIUMTEXT(M)` | Middelgrote tekst variabel | M: 0 tot 16.777.215 tekens | M + 3 Byte |
-| `LONGTEXT(M)` | Lange tekst variabel | M: 0 tot 4.294.967.295 tekens | M + 4 Byte |
+| Type            | Omschrijving                | Waardenbereik                 | Geheugen          |
+| --------------- | --------------------------- | ----------------------------- | ----------------- |
+| `CHAR(M)`       | Tekenreeks vaste lengte     | M: 0 tot 255 tekens           | M tekens (altijd) |
+| `VARCHAR(M)`    | Tekenreeks variabele lengte | M: 0 tot 65.535 tekens        | M + 2 Byte        |
+| `TINYTEXT(M)`   | Zeer kleine tekst variabel  | M: 0 tot 255 tekens           | M + 1 Byte        |
+| `TEXT(M)`       | Tekst variabel              | M: 0 tot 65.535 tekens        | M + 2 Byte        |
+| `MEDIUMTEXT(M)` | Middelgrote tekst variabel  | M: 0 tot 16.777.215 tekens    | M + 3 Byte        |
+| `LONGTEXT(M)`   | Lange tekst variabel        | M: 0 tot 4.294.967.295 tekens | M + 4 Byte        |
 
 > [!tip] CHAR vs VARCHAR
 > - **CHAR**: Gebruik voor velden met altijd dezelfde lengte (bijv. landcodes: "NL", "BE")
@@ -86,15 +86,15 @@ In deze les behandelen we:
 
 ## Speciale Datatypes
 
-| Type | Omschrijving | Waardenbereik | Geheugen |
-|------|--------------|---------------|----------|
-| `UUID` | Universally Unique Identifier | VARCHAR(36) formaat | 16 Byte |
-| `BIT` | Boolean waarde | 1 = True, 0 = False | 1 Byte |
-| `TINYBLOB` | Klein binair object | Max. 255 bytes | M + 1 Byte |
-| `BLOB` | Binair object (afbeeldingen, audio) | Max. 65.535 bytes | M + 2 Byte |
-| `MEDIUMBLOB` | Middelgroot binair object | Max. 16.777.215 bytes | M + 3 Byte |
-| `LONGBLOB` | Groot binair object | Max. 4.294.967.295 bytes | M + 4 Byte |
-| `ENUM` | Opsomming met voorgedefinieerde waarden | Max. 65.535 waarden | 2 Byte |
+| Type         | Omschrijving                            | Waardenbereik            | Geheugen   |
+| ------------ | --------------------------------------- | ------------------------ | ---------- |
+| `UUID`       | Universally Unique Identifier           | VARCHAR(36) formaat      | 16 Byte    |
+| `BIT`        | Boolean waarde                          | 1 = True, 0 = False      | 1 Byte     |
+| `TINYBLOB`   | Klein binair object                     | Max. 255 bytes           | M + 1 Byte |
+| `BLOB`       | Binair object (afbeeldingen, audio)     | Max. 65.535 bytes        | M + 2 Byte |
+| `MEDIUMBLOB` | Middelgroot binair object               | Max. 16.777.215 bytes    | M + 3 Byte |
+| `LONGBLOB`   | Groot binair object                     | Max. 4.294.967.295 bytes | M + 4 Byte |
+| `ENUM`       | Opsomming met voorgedefinieerde waarden | Max. 65.535 waarden      | 2 Byte     |
 
 > [!info] UUID
 > UUID's zijn handig in gedistribueerde systemen waar meerdere computers/databases samenwerken.

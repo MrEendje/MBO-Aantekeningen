@@ -111,7 +111,7 @@ Een bijeenkomst met stakeholders aan het einde van de sprint.
 Een evaluatie van de samenwerking en het proces.
 
 **Vragen:**
-- Wat ging er goed tijdens deze sprint?  
+
 - Wat ging er niet goed?  
 - Wat kunnen we verbeteren?  
 

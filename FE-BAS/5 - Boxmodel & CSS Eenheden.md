@@ -1,4 +1,4 @@
-## Wat is het boxmodel?
+ ## Wat is het boxmodel?
 
 Het boxmodel is de basis van alle HTML elementen. Je kunt elk HTML element zien als een "doos" of vierkant. Het boxmodel bestaat uit 4 onderdelen (van buiten naar binnen):
 

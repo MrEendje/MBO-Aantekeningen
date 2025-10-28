@@ -1,4 +1,4 @@
-# Gherkin-methode
+	# Gherkin-methode
 
 ## 7.1 Introductie
 
@@ -90,10 +90,10 @@ Given
 And
 When
 And
-Then
-And
-But
-Background
+Then 
+And 
+But 
+Background 
 Scenario Outline
 Examples
 ```
@@ -190,7 +190,7 @@ Dan krijg ik een foutmelding “Het gezochte boek is niet gevonden.”
 
 ---
 
-## 7.9 Andere variant van Gherkin
+	## 7.9 Andere variant van Gherkin
 
 ```
 Feature: Account maken
