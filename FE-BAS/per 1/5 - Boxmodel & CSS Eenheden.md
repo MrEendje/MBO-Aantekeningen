@@ -59,14 +59,14 @@ Dit maakt het positioneren van elementen eenvoudiger en voorkomt onverwachte ver
 
 CSS eenheden worden gebruikt om bijvoorbeeld grootte van elementen of tekst aan te geven. Er zijn absolute en relatieve eenheden. Absolute eenheden schalen slecht mee met schermgroottes, daarom worden relatief vaak deze eenheden gebruikt:
 
-|Eenheid|Uitleg|
-|---|---|
-|px|Pixels, handig voor borders of root font-size. Absolute eenheid.|
-|%|Percentage van het parent-element.|
-|em|Schaal van de font-size van het element.|
-|rem|Schaal van de font-size van het root (html) element.|
-|vh|1% van de hoogte van de viewport.|
-|vw|1% van de breedte van de viewport.|
+| Eenheid | Uitleg                                                           |
+| ------- | ---------------------------------------------------------------- |
+| px      | Pixels, handig voor borders of root font-size. Absolute eenheid. |
+| %       | Percentage van het parent-element.                               |
+| em      | Schaal van de font-size van het element.                         |
+| rem     | Schaal van de font-size van het root (html) element.             |
+| vh      | 1% van de hoogte van de viewport.                                |
+| vw      | 1% van de breedte van de viewport.                               |
 
 **Voorbeelden:**
 

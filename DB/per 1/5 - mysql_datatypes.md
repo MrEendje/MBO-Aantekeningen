@@ -3,7 +3,7 @@
 Een **database** is een plek waar je informatie bewaart.  
 Met **MySQL** kun je zulke databases maken en beheren.
 
-👉 Zie ook: [[2 Database]]
+👉 Zie ook: [[2 - Database]]
 
 
 ## Leerdoelen
@@ -69,13 +69,13 @@ In deze les behandelen we:
 
 ## Datum en Tijd Datatypes
 
-| Type | Omschrijving | Waardenbereik | Geheugen |
-|------|--------------|---------------|----------|
-| `TIME` | Tijdweergave: HH:MM:SS.ssssss | -838:59:59.999999 tot +838:59:59.999999 | 3 Byte |
-| `YEAR` | Jaarweergave: YYYY | 1901 tot 2155 en 0000 | 1 Byte |
-| `DATE` | Datumweergave: YYYY-MM-DD | 1001-01-01 tot 9999-12-31 | 3 Byte |
-| `DATETIME` | Datum + Tijd: YYYY-MM-DD HH:MM:SS.ssssss | 1000-01-01 00:00:00 tot 9999-12-31 23:59:59.999999 | 8 Byte |
-| `TIMESTAMP` | Datum + Tijd (UTC): YYYY-MM-DD HH:MM:SS.ssssss | 1970-01-01 00:00:01 tot 2038-01-09 05:14:07 | 4 Byte |
+| Type        | Omschrijving                                   | Waardenbereik                                      | Geheugen |
+| ----------- | ---------------------------------------------- | -------------------------------------------------- | -------- |
+| `TIME`      | Tijdweergave: HH:MM:SS.ssssss                  | -838:59:59.999999 tot +838:59:59.999999            | 3 Byte   |
+| `YEAR`      | Jaarweergave: YYYY                             | 1901 tot 2155 en 0000                              | 1 Byte   |
+| `DATE`      | Datumweergave: YYYY-MM-DD                      | 1001-01-01 tot 9999-12-31                          | 3 Byte   |
+| `DATETIME`  | Datum + Tijd: YYYY-MM-DD HH:MM:SS.ssssss       | 1000-01-01 00:00:00 tot 9999-12-31 23:59:59.999999 | 8 Byte   |
+| `TIMESTAMP` | Datum + Tijd (UTC): YYYY-MM-DD HH:MM:SS.ssssss | 1970-01-01 00:00:01 tot 2038-01-09 05:14:07        | 4 Byte   |
 
 > [!important] DATETIME vs TIMESTAMP
 > - **DATETIME**: Slaat exacte datum/tijd op zoals ingevoerd
@@ -199,8 +199,8 @@ Een tabelspecificatie helpt bij:
 ## Gerelateerde Concepten
 
 - [[Database Normalisatie]]
-- [[4 Database en Tabellen]]
-- [[6 MySQL constraints]]
+- [[4 - Database en Tabellen]]
+- [[6 - MySQL constraints]]
 - [[Database Design Patterns]]
 
 ---

@@ -7,7 +7,7 @@ Het is relationeel, wat betekent dat informatie in tabellen staat die met elkaar
 ### Belangrijkste kenmerken
 - **Open-source** → gratis te gebruiken.  
 - **Relationeel** → werkt met tabellen (rijen en kolommen).  
-- **SQL-taal** → je gebruikt SQL (Structured Query Language) om data op te vragen, in te voegen of te wijzigen.  Hoe? kan je vinden in: [[4 Database en Tabellen]]
+- **SQL-taal** → je gebruikt SQL (Structured Query Language) om data op te vragen, in te voegen of te wijzigen.  Hoe? kan je vinden in: [[4 - Database en Tabellen]]
 - **Betrouwbaar** → veel gebruikt in websites, apps en bedrijven.  
 
 ### Voorbeelden van gebruik
